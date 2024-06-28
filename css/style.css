@@ -1,0 +1,117 @@
+/*
+File: style.css
+GUI Assignment: #5, Create a Scrabble website
+Garrett Bacon, UMass Lowell Computer Science, Garrett_Bacon@student.uml.edu
+Desc:
+*/
+body{
+    background-color: beige;
+}
+h1{
+    float:center;
+    background-color: maroon;
+    color:gold;
+    text-align: center;
+    padding:20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+h2{
+    font-family: 'roboto', sans-serif;
+}
+
+/*Container for the board and droppable boxes*/
+#boardContainer{
+    position: relative;
+    width: 1129px;
+    height:80px;
+}
+/*style the rack image to fit our container completely*/
+#board{
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+.word{
+    width:60px;
+    height:60px;
+    position: absolute;
+    top:8px;
+}
+
+/*position our word boxes on the board*/
+#word1{
+    left:7px;
+}
+#word2{
+    left:82px;
+}
+#word3{
+    left:157px;
+}
+#word4{
+    left:232px;
+}
+#word5{
+    left:307px;
+}
+#word6{
+    left:382px;
+}
+#word7{
+    left:457px;
+}
+
+
+
+/*Create a container sized to the rack that will contain our rack and letters*/
+#rackContainer{
+    position: relative;
+    width: 640px;
+    height:182px;
+}
+/*style the rack image to fit our container completely*/
+#rack{
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+
+/*place the tiles on the rack*/
+.rackTile{
+    width:60px;
+    height:auto;
+    position: absolute;
+    top:50px;
+}
+
+.rackTile img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*position our tile boxes on the board*/
+#tile1{
+    left:30px;
+}
+#tile2{
+    left:115px;
+}
+#tile3{
+    left:200px;
+}
+#tile4{
+    left:285px;
+}
+#tile5{
+    left:370px;
+}
+#tile6{
+    left:455px;
+}
+#tile7{
+    left:540px;
+}

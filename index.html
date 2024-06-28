@@ -1,0 +1,61 @@
+<!--
+File: index.html
+GUI Assignment: #5, Create a Scrabble website
+Garrett Bacon, UMass Lowell Computer Science, Garrett_Bacon@student.uml.edu
+Desc:
+
+-->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Scrabble!</title>
+        <!--Call on the jquery and jquery UI CDN's-->
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Garrett's Scrabble Game</h1>
+        <!--Div box for the board to reside-->
+        <div id="boardContainer">
+            <div id="Board">
+                <img id="Scrabble Board" src="graphics_data/Scrabble_Board_OneLine.png">
+                <div id="word1" class="word"></div>
+                <div id="word2" class="word"></div>
+                <div id="word3" class="word"></div>
+                <div id="word4" class="word"></div>
+                <div id="word5" class="word"></div>
+                <div id="word6" class="word"></div>
+                <div id="word7" class="word"></div>
+            </div>
+        </div>
+        <form>
+            <input type="button" value="Reset Game" id="reset">
+            <input type="button" value="New Deal" id="deal">
+        </form>
+        <div id = "wordbox">
+            <h2>Word: </h2>
+            <div id="userWord"></div>
+        </div>
+        <div id="scoreBox">
+            <h2>Score: </h2>
+            <div id="score"></div>
+        </div>
+        <div id = "rackContainer">
+            <div id="rack">
+                <img id="rack" src="graphics_data/rack.png">
+                <div id = "tile1" class = "rackTile"></div>
+                <div id = "tile2" class = "rackTile"></div>
+                <div id = "tile3" class = "rackTile"></div>
+                <div id = "tile4" class = "rackTile"></div>
+                <div id = "tile5" class = "rackTile"></div>
+                <div id = "tile6" class = "rackTile"></div>
+                <div id = "tile7" class = "rackTile"></div>
+            </div>
+        </div>
+        <script src="js/Scrabble_Pieces_AssociativeArray_Jesse.js"></script>
+        <script src="js/scrabble.js"></script>
+    </body>
+</html>

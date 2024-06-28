@@ -1,0 +1,4 @@
+Garrett Bacon Writeup HW #5
+
+For this project, at the moment the website loads with 7 randomized letter graphics in the rack. The graphics are
+draggable up to the 7 drop zones I have defined in
