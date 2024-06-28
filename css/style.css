@@ -2,11 +2,14 @@
 File: style.css
 GUI Assignment: #5, Create a Scrabble website
 Garrett Bacon, UMass Lowell Computer Science, Garrett_Bacon@student.uml.edu
-Desc:
+Desc: This file is the CSS file that contains the CSS styling for my scrabble program
 */
+
+/*Changes the background color of the page */
 body{
     background-color: beige;
 }
+/*The main heading for my website*/
 h1{
     float:center;
     background-color: maroon;
@@ -17,7 +20,7 @@ h1{
     font-weight: bold;
     font-size: 300%;
 }
-
+/*Secondary heading to present user score and word data*/
 h2{
     font-family: 'roboto', sans-serif;
 }
@@ -34,6 +37,7 @@ h2{
     height:100%;
     z-index: -1;
 }
+/*General positioning for the droppable zones on the board*/
 .word{
     width:60px;
     height:60px;
