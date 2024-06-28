@@ -1,4 +1,8 @@
 Garrett Bacon Writeup HW #5
 
 For this project, at the moment the website loads with 7 randomized letter graphics in the rack. The graphics are
-draggable up to the 7 drop zones I have defined in
+draggable up to the 7 drop zones I have defined in the board starting from the leftmost point. Each word must start
+from the first box on the right and work to the right. To start a new word new deal must be pressed, to reset the game
+the reset button must be pressed which will rever the score back to 0. Each letter must be placed one box to the right
+of the last letter that was placed or it will return to its original position. The bonus boxes are also functional
+as pictured.

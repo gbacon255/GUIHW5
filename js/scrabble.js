@@ -2,7 +2,7 @@
 File: Scrabble.js
 GUI Assignment: #5, Create a Scrabble website
 Garrett Bacon, UMass Lowell Computer Science, Garrett_Bacon@student.uml.edu
-Desc:
+Desc: This is the javascript file to add scrabble functionality to my website
 */
 //Starts the jquery when the body is loaded
 var position = [];
