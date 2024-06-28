@@ -2,7 +2,8 @@
 File: index.html
 GUI Assignment: #5, Create a Scrabble website
 Garrett Bacon, UMass Lowell Computer Science, Garrett_Bacon@student.uml.edu
-Desc:
+Desc: This is the index file for my scrabble game, it includes the rack and board and the subsequent div zones for the
+tiles to exist
 
 -->
 <!DOCTYPE html>
@@ -31,18 +32,22 @@ Desc:
                 <div id="word7" class="word"></div>
             </div>
         </div>
+        <!--Form Buttons for the user to restart the game or play another word-->
         <form>
             <input type="button" value="Reset Game" id="reset">
             <input type="button" value="New Deal" id="deal">
         </form>
+        <!--Div box for the users word to be presented-->
         <div id = "wordbox">
             <h2>Word: </h2>
             <div id="userWord"></div>
         </div>
+        <!--Div box for the users score to be presented-->
         <div id="scoreBox">
             <h2>Score: </h2>
             <div id="score"></div>
         </div>
+        <!--Div box for the rack to reside-->
         <div id = "rackContainer">
             <div id="rack">
                 <img id="rack" src="graphics_data/rack.png">
@@ -55,6 +60,7 @@ Desc:
                 <div id = "tile7" class = "rackTile"></div>
             </div>
         </div>
+        <!--Javascript Source files-->
         <script src="js/Scrabble_Pieces_AssociativeArray_Jesse.js"></script>
         <script src="js/scrabble.js"></script>
     </body>
